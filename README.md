@@ -1,6 +1,4 @@
 # CS537-Operating-Systems
-Operating Systems Projects
-# CS-537
 
 Projects of CS-537: Intro to Operating Systems (Spring 2020) at University of Wisconsin-Madison
 
