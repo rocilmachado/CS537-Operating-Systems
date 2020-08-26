@@ -149,6 +149,7 @@ void removePath(char** path, char* rempath)
 
 }
 
+
 void clearPath(char** path)
 {
 	int i;
