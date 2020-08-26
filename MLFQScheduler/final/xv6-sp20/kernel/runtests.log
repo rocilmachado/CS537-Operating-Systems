@@ -1,0 +1,210 @@
+starting build
+
+**********************************************************************
+
+Test build
+build xv6 using make
+
+**********************************************************************
+Trying to build project using make
+make
+make: *** No targets specified and no makefile found.  Stop.
+
+
+test build FAILED
+ (build xv6 using make)
+ make failed (error 2)
+ required file 'xv6.img' does not exist after make
+ required file 'fs.img' does not exist after make
+
+starting inuse_basic
+
+**********************************************************************
+
+Test inuse_basic
+Check if inuse flag is set correctly
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/inuse_basic.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test inuse_basic FAILED (0 of 1)
+ (Check if inuse flag is set correctly)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+starting getprocinfo
+
+**********************************************************************
+
+Test getprocinfo
+Basic test on getprocinfo
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/getprocinfo.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test getprocinfo FAILED (0 of 1)
+ (Basic test on getprocinfo)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+starting single_job_long
+
+**********************************************************************
+
+Test single_job_long
+Test on a long running workload
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/single_job_long.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test single_job_long FAILED (0 of 1)
+ (Test on a long running workload)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+starting boostproc
+
+**********************************************************************
+
+Test boostproc
+Basic test on boostproc
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/boostproc.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test boostproc FAILED (0 of 1)
+ (Basic test on boostproc)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+starting new_process
+
+**********************************************************************
+
+Test new_process
+New process should have higher priority
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/new_process.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test new_process FAILED (0 of 1)
+ (New process should have higher priority)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+starting round_robin
+
+**********************************************************************
+
+Test round_robin
+All processes have an equal chance of execution
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/round_robin.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test round_robin FAILED (0 of 1)
+ (All processes have an equal chance of execution)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+starting relinquish
+
+**********************************************************************
+
+Test relinquish
+Processes relinquished CPU resources should maintain their time slices
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/relinquish.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test relinquish FAILED (0 of 1)
+ (Processes relinquished CPU resources should maintain their time slices)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+starting priority_boost
+
+**********************************************************************
+
+Test priority_boost
+(stronger) test on boostproc
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/priority_boost.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test priority_boost FAILED (0 of 1)
+ ((stronger) test on boostproc)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+starting wait_times
+
+**********************************************************************
+
+Test wait_times
+Wait time should not exceed the expected ticks
+
+**********************************************************************
+Running xv6 user progam /afs/cs.wisc.edu/p/course/cs537-shivaram/tests/p2b/ctests/wait_times.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+
+test wait_times FAILED (0 of 1)
+ (Wait time should not exceed the expected ticks)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+**********************************************************************
+Summary:
+test build FAILED
+ (build xv6 using make)
+ make failed (error 2)
+ required file 'xv6.img' does not exist after make
+ required file 'fs.img' does not exist after make
+
+test inuse_basic FAILED (0 of 1)
+ (Check if inuse flag is set correctly)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+test getprocinfo FAILED (0 of 1)
+ (Basic test on getprocinfo)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+test single_job_long FAILED (0 of 1)
+ (Test on a long running workload)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+test boostproc FAILED (0 of 1)
+ (Basic test on boostproc)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+test new_process FAILED (0 of 1)
+ (New process should have higher priority)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+test round_robin FAILED (0 of 1)
+ (All processes have an equal chance of execution)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+test relinquish FAILED (0 of 1)
+ (Processes relinquished CPU resources should maintain their time slices)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+test priority_boost FAILED (0 of 1)
+ ((stronger) test on boostproc)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+test wait_times FAILED (0 of 1)
+ (Wait time should not exceed the expected ticks)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpE3Am34/p/user/tester.c'
+
+Passed 0 of 10 tests.
+Overall 0 of 10
+Points 0 of 9
